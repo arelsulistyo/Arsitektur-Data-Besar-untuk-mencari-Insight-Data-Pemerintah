@@ -1,6 +1,6 @@
-# README: Arsitektur Data Besar
+# README: Arsitektur Data Besar untuk mencari Insight Data Pemerintah
 
-README ini memberikan gambaran umum dan panduan langkah demi langkah untuk membangun arsitektur Data Besar menggunakan Docker, Apache Airflow, MinIO, Dremio, PostgreSQL, dan Metabase.
+README ini memberikan gambaran umum tentang arsitektur Data Besar yang menggunakan Docker, Apache Airflow, MinIO, Dremio, PostgreSQL, dan Metabase.
 
 ## Daftar Isi
 
