@@ -1,0 +1,43 @@
+[2024-05-25T14:32:03.302+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-25T14:32:03.319+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_copy_to_minio_dag.copy_csv_to_minio manual__2024-05-25T14:31:56.903463+00:00 [queued]>
+[2024-05-25T14:32:03.332+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_copy_to_minio_dag.copy_csv_to_minio manual__2024-05-25T14:31:56.903463+00:00 [queued]>
+[2024-05-25T14:32:03.332+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-05-25T14:32:03.346+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): copy_csv_to_minio> on 2024-05-25 14:31:56.903463+00:00
+[2024-05-25T14:32:03.352+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=697) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-25T14:32:03.354+0000] {standard_task_runner.py:63} INFO - Started process 698 to run task
+[2024-05-25T14:32:03.354+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'csv_copy_to_minio_dag', 'copy_csv_to_minio', 'manual__2024-05-25T14:31:56.903463+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/csv_copy_to_mino_dag.py', '--cfg-path', '/tmp/tmppxy0o87d']
+[2024-05-25T14:32:03.355+0000] {standard_task_runner.py:91} INFO - Job 88: Subtask copy_csv_to_minio
+[2024-05-25T14:32:03.392+0000] {task_command.py:426} INFO - Running <TaskInstance: csv_copy_to_minio_dag.copy_csv_to_minio manual__2024-05-25T14:31:56.903463+00:00 [running]> on host 59b9dd79a01c
+[2024-05-25T14:32:03.459+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_copy_to_minio_dag' AIRFLOW_CTX_TASK_ID='copy_csv_to_minio' AIRFLOW_CTX_EXECUTION_DATE='2024-05-25T14:31:56.903463+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-25T14:31:56.903463+00:00'
+[2024-05-25T14:32:03.460+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-25T14:32:03.472+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-25T14:32:03.472+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/csv_copy_to_mino_dag.py", line 36, in copy_csv_to_minio
+    s3_hook = S3Hook(aws_conn_id='minio_s3', endpoint_url='http://localhost:9090')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 187, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: AwsGenericHook.__init__() got an unexpected keyword argument 'endpoint_url'
+[2024-05-25T14:32:03.482+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=csv_copy_to_minio_dag, task_id=copy_csv_to_minio, run_id=manual__2024-05-25T14:31:56.903463+00:00, execution_date=20240525T143156, start_date=20240525T143203, end_date=20240525T143203
+[2024-05-25T14:32:03.491+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 88 for task copy_csv_to_minio (AwsGenericHook.__init__() got an unexpected keyword argument 'endpoint_url'; 698)
+[2024-05-25T14:32:03.528+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-25T14:32:03.541+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-25T14:32:03.543+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

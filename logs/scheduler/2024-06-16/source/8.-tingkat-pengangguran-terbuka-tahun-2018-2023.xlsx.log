@@ -1,0 +1,35 @@
+[2024-06-16T17:24:43.280+0000] {processor.py:161} INFO - Started process (PID=45) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:24:43.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:24:43.294+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:24:43.293+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:24:43.312+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:24:43.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.134 seconds
+[2024-06-16T17:25:14.164+0000] {processor.py:161} INFO - Started process (PID=57) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:25:14.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:25:14.167+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:25:14.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:25:14.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:25:14.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.025 seconds
+[2024-06-16T17:25:44.711+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:25:44.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:25:44.713+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:25:44.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:25:44.719+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:25:44.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.022 seconds
+[2024-06-16T17:26:15.398+0000] {processor.py:161} INFO - Started process (PID=81) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:26:15.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:26:15.401+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:26:15.401+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:26:15.410+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:26:15.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.068 seconds
+[2024-06-16T17:26:45.977+0000] {processor.py:161} INFO - Started process (PID=93) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:26:45.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:26:45.979+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:26:45.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:26:45.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:26:45.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.022 seconds
+[2024-06-16T17:27:16.404+0000] {processor.py:161} INFO - Started process (PID=105) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:27:16.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:27:16.406+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:27:16.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:27:16.415+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:27:16.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.026 seconds
+[2024-06-16T17:27:46.889+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:27:46.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx for tasks to queue
+[2024-06-16T17:27:46.891+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:27:46.891+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:27:46.898+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx
+[2024-06-16T17:27:46.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/8.-tingkat-pengangguran-terbuka-tahun-2018-2023.xlsx took 0.023 seconds

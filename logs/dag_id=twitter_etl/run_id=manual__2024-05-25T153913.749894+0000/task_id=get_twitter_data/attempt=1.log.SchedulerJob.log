@@ -1,0 +1,1 @@
+[2024-05-25T15:39:16.618+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: twitter_etl.get_twitter_data manual__2024-05-25T15:39:13.749894+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

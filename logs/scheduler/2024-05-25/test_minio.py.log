@@ -1,0 +1,207 @@
+[2024-05-25T13:27:15.510+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:27:15.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:27:15.515+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:27:15.664+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:27:15.756+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.756+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:check_minio_bucket_dag
+[2024-05-25T13:27:15.766+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.765+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:check_minio_bucket_dag
+[2024-05-25T13:27:15.771+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.771+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:check_minio_bucket_dag
+[2024-05-25T13:27:15.772+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:27:15.782+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.782+0000] {dag.py:3118} INFO - Creating ORM DAG for check_minio_bucket_dag
+[2024-05-25T13:27:15.790+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:15.790+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-24 00:00:00+00:00, run_after=2024-05-25 00:00:00+00:00
+[2024-05-25T13:27:15.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.310 seconds
+[2024-05-25T13:27:46.335+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:27:46.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:27:46.338+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:46.338+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:27:46.470+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:27:46.490+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:46.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:27:46.507+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:27:46.507+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:27:46.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.198 seconds
+[2024-05-25T13:28:17.016+0000] {processor.py:161} INFO - Started process (PID=70) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:28:17.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:28:17.019+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:28:17.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:28:17.142+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:28:17.161+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:28:17.161+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:28:17.178+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:28:17.177+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:28:17.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.184 seconds
+[2024-05-25T13:28:47.627+0000] {processor.py:161} INFO - Started process (PID=80) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:28:47.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:28:47.629+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:28:47.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:28:47.770+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:28:47.788+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:28:47.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:28:47.805+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:28:47.805+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:28:47.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.203 seconds
+[2024-05-25T13:29:18.318+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:29:18.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:29:18.321+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:29:18.320+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:29:18.449+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:29:18.469+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:29:18.468+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:29:18.486+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:29:18.485+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:29:18.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.186 seconds
+[2024-05-25T13:29:48.918+0000] {processor.py:161} INFO - Started process (PID=102) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:29:48.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:29:48.920+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:29:48.920+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:29:49.049+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:29:49.067+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:29:49.066+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:29:49.081+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:29:49.081+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:29:49.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.186 seconds
+[2024-05-25T13:30:19.597+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:30:19.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:30:19.599+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:30:19.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:30:19.732+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:30:19.751+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:30:19.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:30:19.766+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:30:19.766+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:30:19.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.192 seconds
+[2024-05-25T13:30:50.246+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:30:50.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:30:50.248+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:30:50.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:30:50.376+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:30:50.395+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:30:50.395+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:30:50.414+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:30:50.414+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:30:50.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.192 seconds
+[2024-05-25T13:31:20.907+0000] {processor.py:161} INFO - Started process (PID=134) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:31:20.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:31:20.910+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:31:20.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:31:21.115+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:31:21.135+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:31:21.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:31:21.154+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:31:21.154+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:31:21.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.267 seconds
+[2024-05-25T13:31:51.646+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:31:51.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:31:51.648+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:31:51.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:31:51.779+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:31:51.804+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:31:51.804+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:31:51.822+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:31:51.822+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:31:51.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.201 seconds
+[2024-05-25T13:32:22.385+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:32:22.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:32:22.388+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:32:22.387+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:32:22.517+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:32:22.538+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:32:22.537+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:32:22.553+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:32:22.553+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:32:22.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.187 seconds
+[2024-05-25T13:32:52.986+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:32:52.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:32:52.988+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:32:52.988+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:32:53.128+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:32:53.168+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:32:53.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:32:53.264+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:32:53.264+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:32:53.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.301 seconds
+[2024-05-25T13:33:23.742+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:33:23.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:33:23.745+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:33:23.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:33:23.870+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:33:23.888+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:33:23.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:33:23.903+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:33:23.903+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:33:23.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.185 seconds
+[2024-05-25T13:33:54.364+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:33:54.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:33:54.366+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:33:54.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:33:54.494+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:33:54.512+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:33:54.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:33:54.528+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:33:54.528+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:33:54.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.189 seconds
+[2024-05-25T13:34:24.994+0000] {processor.py:161} INFO - Started process (PID=200) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:34:24.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:34:24.996+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:34:24.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:34:25.136+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:34:25.160+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:34:25.160+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:34:25.178+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:34:25.178+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:34:25.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.208 seconds
+[2024-05-25T13:34:55.639+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:34:55.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:34:55.641+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:34:55.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:34:55.769+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:34:55.790+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:34:55.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:34:55.807+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:34:55.807+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:34:55.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.191 seconds
+[2024-05-25T13:35:26.260+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:35:26.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:35:26.262+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:35:26.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:35:26.391+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:35:26.412+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:35:26.412+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:35:26.429+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:35:26.429+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:35:26.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.193 seconds
+[2024-05-25T13:35:56.880+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:35:56.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:35:56.882+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:35:56.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:35:57.012+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:35:57.031+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:35:57.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:35:57.048+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:35:57.048+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:35:57.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.187 seconds
+[2024-05-25T13:36:27.493+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:36:27.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:36:27.495+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:36:27.495+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:36:27.625+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:36:27.646+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:36:27.645+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:36:27.662+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:36:27.662+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:36:27.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.188 seconds
+[2024-05-25T13:36:58.122+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:36:58.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:36:58.124+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:36:58.124+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:36:58.258+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:36:58.278+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:36:58.278+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:36:58.295+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:36:58.295+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:36:58.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.200 seconds
+[2024-05-25T13:37:28.800+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:37:28.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:37:28.802+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:37:28.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:37:28.940+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:37:28.961+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:37:28.961+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:37:28.980+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:37:28.979+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:37:28.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.203 seconds
+[2024-05-25T13:37:59.445+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:37:59.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:37:59.447+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:37:59.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:37:59.576+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:37:59.596+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:37:59.596+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:37:59.612+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:37:59.612+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:37:59.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.188 seconds
+[2024-05-25T13:38:30.049+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:38:30.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:38:30.051+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:38:30.051+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:38:30.183+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:38:30.203+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:38:30.203+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:38:30.221+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:38:30.220+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:38:30.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.195 seconds
+[2024-05-25T13:39:00.660+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:39:00.662+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:39:00.663+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:39:00.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:39:00.806+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:39:00.827+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:39:00.827+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:39:00.845+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:39:00.845+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:39:00.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.205 seconds
+[2024-05-25T13:39:31.298+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:39:31.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:39:31.301+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:39:31.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:39:31.465+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:39:31.489+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:39:31.488+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:39:31.509+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:39:31.509+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:39:31.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.238 seconds
+[2024-05-25T13:40:02.000+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:40:02.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:40:02.002+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:40:02.002+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:40:02.124+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:40:02.144+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:40:02.144+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:40:02.161+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:40:02.161+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:40:02.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.187 seconds
+[2024-05-25T13:40:32.630+0000] {processor.py:161} INFO - Started process (PID=332) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:40:32.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:40:32.632+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:40:32.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:40:32.771+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:40:32.790+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:40:32.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:40:32.809+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:40:32.809+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:40:32.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.205 seconds
+[2024-05-25T13:41:03.259+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:41:03.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:41:03.262+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:41:03.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:41:03.418+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:41:03.445+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:41:03.445+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:41:03.464+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:41:03.464+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:41:03.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.233 seconds
+[2024-05-25T13:41:34.028+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/test_minio.py
+[2024-05-25T13:41:34.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_minio.py for tasks to queue
+[2024-05-25T13:41:34.031+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:41:34.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:41:34.228+0000] {processor.py:840} INFO - DAG(s) 'check_minio_bucket_dag' retrieved from /opt/airflow/dags/test_minio.py
+[2024-05-25T13:41:34.268+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:41:34.267+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-25T13:41:34.297+0000] {logging_mixin.py:188} INFO - [2024-05-25T13:41:34.297+0000] {dag.py:3954} INFO - Setting next_dagrun for check_minio_bucket_dag to 2024-05-25 00:00:00+00:00, run_after=2024-05-26 00:00:00+00:00
+[2024-05-25T13:41:34.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_minio.py took 0.300 seconds

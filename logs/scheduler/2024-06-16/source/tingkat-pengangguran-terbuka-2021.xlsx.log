@@ -1,0 +1,35 @@
+[2024-06-16T17:24:43.574+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:24:43.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:24:43.582+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:24:43.581+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:24:43.605+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:24:43.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.104 seconds
+[2024-06-16T17:25:14.216+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:25:14.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:25:14.219+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:25:14.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:25:14.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:25:14.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.022 seconds
+[2024-06-16T17:25:44.800+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:25:44.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:25:44.802+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:25:44.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:25:44.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:25:44.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.021 seconds
+[2024-06-16T17:26:15.521+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:26:15.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:26:15.524+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:26:15.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:26:15.530+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:26:15.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.022 seconds
+[2024-06-16T17:26:46.023+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:26:46.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:26:46.026+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:26:46.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:26:46.034+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:26:46.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.025 seconds
+[2024-06-16T17:27:16.467+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:27:16.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:27:16.470+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:27:16.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:27:16.480+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:27:16.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.028 seconds
+[2024-06-16T17:27:46.938+0000] {processor.py:161} INFO - Started process (PID=119) to work on /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:27:46.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx for tasks to queue
+[2024-06-16T17:27:46.940+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:27:46.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:27:46.948+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx
+[2024-06-16T17:27:46.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/tingkat-pengangguran-terbuka-2021.xlsx took 0.025 seconds

@@ -1,0 +1,35 @@
+[2024-06-16T17:24:43.464+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:24:43.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:24:43.472+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:24:43.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:24:43.488+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:24:43.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.071 seconds
+[2024-06-16T17:25:14.189+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:25:14.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:25:14.192+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:25:14.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:25:14.198+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:25:14.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.023 seconds
+[2024-06-16T17:25:44.752+0000] {processor.py:161} INFO - Started process (PID=70) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:25:44.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:25:44.754+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:25:44.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:25:44.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:25:44.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.023 seconds
+[2024-06-16T17:26:15.518+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:26:15.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:26:15.521+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:26:15.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:26:15.529+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:26:15.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.025 seconds
+[2024-06-16T17:26:45.999+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:26:46.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:26:46.001+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:26:46.001+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:26:46.007+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:26:46.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.023 seconds
+[2024-06-16T17:27:16.445+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:27:16.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:27:16.448+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:27:16.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:27:16.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:27:16.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.025 seconds
+[2024-06-16T17:27:46.911+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:27:46.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx for tasks to queue
+[2024-06-16T17:27:46.914+0000] {logging_mixin.py:188} INFO - [2024-06-16T17:27:46.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:27:46.921+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx
+[2024-06-16T17:27:46.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/jumlah-penduduk-miskin-2021.xlsx took 0.024 seconds

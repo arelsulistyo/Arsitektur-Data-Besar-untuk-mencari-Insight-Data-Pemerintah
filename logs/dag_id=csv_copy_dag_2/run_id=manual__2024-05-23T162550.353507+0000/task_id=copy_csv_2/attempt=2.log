@@ -1,0 +1,45 @@
+[2024-05-23T16:25:56.982+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-23T16:25:57.001+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: csv_copy_dag_2.copy_csv_2 manual__2024-05-23T16:25:50.353507+00:00 [queued]>
+[2024-05-23T16:25:57.008+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: csv_copy_dag_2.copy_csv_2 manual__2024-05-23T16:25:50.353507+00:00 [queued]>
+[2024-05-23T16:25:57.009+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-05-23T16:25:57.024+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): copy_csv_2> on 2024-05-23 16:25:50.353507+00:00
+[2024-05-23T16:25:57.029+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=76) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-23T16:25:57.030+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'csv_copy_dag_2', 'copy_csv_2', 'manual__2024-05-23T16:25:50.353507+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/csv_copy_dag_2.py', '--cfg-path', '/tmp/tmpwnbic3yg']
+[2024-05-23T16:25:57.031+0000] {standard_task_runner.py:63} INFO - Started process 77 to run task
+[2024-05-23T16:25:57.031+0000] {standard_task_runner.py:91} INFO - Job 56: Subtask copy_csv_2
+[2024-05-23T16:25:57.071+0000] {task_command.py:426} INFO - Running <TaskInstance: csv_copy_dag_2.copy_csv_2 manual__2024-05-23T16:25:50.353507+00:00 [running]> on host b6ef65ab2599
+[2024-05-23T16:25:57.139+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='csv_copy_dag_2' AIRFLOW_CTX_TASK_ID='copy_csv_2' AIRFLOW_CTX_EXECUTION_DATE='2024-05-23T16:25:50.353507+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-23T16:25:50.353507+00:00'
+[2024-05-23T16:25:57.140+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-23T16:25:57.150+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-23T16:25:57.151+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/csv_copy_dag_2.py", line 30, in copy_csv_file
+    shutil.copy(src, dest)
+  File "/usr/local/lib/python3.12/shutil.py", line 435, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/local/lib/python3.12/shutil.py", line 260, in copyfile
+    with open(src, 'rb') as fsrc:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/airflow-docker/dags/source/Zomato_Dataset.csv'
+[2024-05-23T16:25:57.162+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=csv_copy_dag_2, task_id=copy_csv_2, run_id=manual__2024-05-23T16:25:50.353507+00:00, execution_date=20240523T162550, start_date=20240523T162557, end_date=20240523T162557
+[2024-05-23T16:25:57.172+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 56 for task copy_csv_2 ([Errno 2] No such file or directory: '/path/to/airflow-docker/dags/source/Zomato_Dataset.csv'; 77)
+[2024-05-23T16:25:57.205+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-23T16:25:57.219+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-23T16:25:57.221+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

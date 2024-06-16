@@ -1,0 +1,70 @@
+[2024-06-09T14:38:19.568+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:38:19.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:38:19.573+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:38:19.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:38:19.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:38:19.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.042 seconds
+[2024-06-09T14:38:50.294+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:38:50.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:38:50.297+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:38:50.297+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:38:50.310+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:38:50.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.030 seconds
+[2024-06-09T14:39:20.851+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:39:20.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:39:20.854+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:39:20.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:39:20.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:39:20.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.022 seconds
+[2024-06-09T14:40:32.812+0000] {processor.py:161} INFO - Started process (PID=46) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:40:32.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:40:32.826+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:40:32.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:40:32.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:40:32.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.152 seconds
+[2024-06-09T14:41:03.491+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:41:03.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:41:03.494+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:41:03.494+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:41:03.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:41:03.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.026 seconds
+[2024-06-09T14:41:34.023+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:41:34.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:41:34.025+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:41:34.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:41:34.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:41:34.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.020 seconds
+[2024-06-09T14:42:04.527+0000] {processor.py:161} INFO - Started process (PID=85) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:42:04.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:42:04.529+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:42:04.529+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:42:04.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:42:04.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.024 seconds
+[2024-06-09T14:42:35.042+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:42:35.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:42:35.044+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:42:35.044+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:42:35.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:42:35.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.022 seconds
+[2024-06-09T14:43:05.621+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:43:05.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:43:05.624+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:43:05.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:43:05.633+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:43:05.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.027 seconds
+[2024-06-09T14:43:36.201+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:43:36.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:43:36.204+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:43:36.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:43:36.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:43:36.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.026 seconds
+[2024-06-09T14:44:06.705+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:44:06.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:44:06.708+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:44:06.708+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:44:06.715+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:44:06.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.024 seconds
+[2024-06-09T14:44:37.271+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:44:37.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:44:37.274+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:44:37.274+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:44:37.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:44:37.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.023 seconds
+[2024-06-09T14:45:07.857+0000] {processor.py:161} INFO - Started process (PID=163) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:45:07.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:45:07.859+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:45:07.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:45:07.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:45:07.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.025 seconds
+[2024-06-09T14:45:38.494+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:45:38.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx for tasks to queue
+[2024-06-09T14:45:38.496+0000] {logging_mixin.py:188} INFO - [2024-06-09T14:45:38.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:45:38.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx
+[2024-06-09T14:45:38.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/source/penduduk-berdasarkan-tingkat-pendidikan-2021.xlsx took 0.025 seconds

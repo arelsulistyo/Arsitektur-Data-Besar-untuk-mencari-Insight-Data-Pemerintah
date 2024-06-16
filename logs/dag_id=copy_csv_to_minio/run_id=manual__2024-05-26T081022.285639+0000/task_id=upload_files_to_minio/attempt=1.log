@@ -1,0 +1,22 @@
+[2024-05-26T08:10:23.314+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-26T08:10:23.325+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: copy_csv_to_minio.upload_files_to_minio manual__2024-05-26T08:10:22.285639+00:00 [queued]>
+[2024-05-26T08:10:23.332+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: copy_csv_to_minio.upload_files_to_minio manual__2024-05-26T08:10:22.285639+00:00 [queued]>
+[2024-05-26T08:10:23.332+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-05-26T08:10:23.343+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): upload_files_to_minio> on 2024-05-26 08:10:22.285639+00:00
+[2024-05-26T08:10:23.348+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=274) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-26T08:10:23.349+0000] {standard_task_runner.py:63} INFO - Started process 275 to run task
+[2024-05-26T08:10:23.349+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'copy_csv_to_minio', 'upload_files_to_minio', 'manual__2024-05-26T08:10:22.285639+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/test_123.py', '--cfg-path', '/tmp/tmphx1kmhn_']
+[2024-05-26T08:10:23.350+0000] {standard_task_runner.py:91} INFO - Job 189: Subtask upload_files_to_minio
+[2024-05-26T08:10:23.382+0000] {task_command.py:426} INFO - Running <TaskInstance: copy_csv_to_minio.upload_files_to_minio manual__2024-05-26T08:10:22.285639+00:00 [running]> on host 8b31e61ee3d2
+[2024-05-26T08:10:23.445+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='copy_csv_to_minio' AIRFLOW_CTX_TASK_ID='upload_files_to_minio' AIRFLOW_CTX_EXECUTION_DATE='2024-05-26T08:10:22.285639+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-26T08:10:22.285639+00:00'
+[2024-05-26T08:10:23.445+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-26T08:10:23.463+0000] {base.py:84} INFO - Using connection ID 'minio_s3' for task execution.
+[2024-05-26T08:10:23.464+0000] {connection_wrapper.py:387} INFO - AWS Connection (conn_id='minio_s3', conn_type='aws') credentials retrieved from extra.
+[2024-05-26T08:10:23.813+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-26T08:10:23.814+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-26T08:10:23.821+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=copy_csv_to_minio, task_id=upload_files_to_minio, run_id=manual__2024-05-26T08:10:22.285639+00:00, execution_date=20240526T081022, start_date=20240526T081023, end_date=20240526T081023
+[2024-05-26T08:10:23.843+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-26T08:10:23.855+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-26T08:10:23.857+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
